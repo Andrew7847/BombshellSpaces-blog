@@ -12,7 +12,7 @@ const Author = ({ author }) => (
         alt={author.name}
         height={100}
         width={100}
-        className="mx-auto rounded-full my-4"
+        className="mx-auto rounded-full"
         src={author.photo.url}s
       />
     </div>
