@@ -95,4 +95,4 @@ const CommentsForm = ({ slug }) => {
   )
 }
 
-export default CommentsForm
+export default CommentsForm;

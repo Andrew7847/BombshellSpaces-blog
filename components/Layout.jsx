@@ -1,15 +1,11 @@
-import React from 'react'
-import { Header } from './';
+import React from 'react';
+import Header from './Header';
 
+const Layout = ({ children }) => (
+  <>
+    <Header />
+    {children}
+  </>
+);
 
-
-const Layout = ({ children }) => {
-  return (
-    <>
-      <Header />
-      {children}
-    </>
-  )
-}
-
-export default Layout
+export default Layout;
