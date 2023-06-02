@@ -12,11 +12,11 @@ const Header = () => {
   }, []);
 
   return (
-    <div className='container mx-auto px-10 mb-8'>
+    <div className='container mx-auto px-10 mb-8 rounded-md bg-black bg-opacity-70'>
       <div className='border-b w-full inline-block border-blue-400 py-8'>
         <div className='md:float-left block'>
             <Link href="/">
-                <span className='cursor-pointer italic text-4xl text-white'>
+                <span className='cursor-pointer font-tangerine text-8xl text-white'>
                     Bombshell Spaces
                 </span>
             </Link>
@@ -24,7 +24,7 @@ const Header = () => {
         <div className='hidden lg:float-left lg:contents'>
             {categories.map((category) => (
                 <Link key={category.slug} href={`/category/${category.slug}`}>
-                    <span className='md:float-right mt-2 align-middle text-white ml-4 cursor-pointer'>
+                    <span className='md:float-right mt-16 align-middle text-white ml-4 cursor-pointer'>
                         {category.name}
                     </span>
                 </Link>
