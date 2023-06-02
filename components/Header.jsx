@@ -16,7 +16,7 @@ const Header = () => {
       <div className='border-b w-full inline-block border-blue-400 py-8'>
         <div className='md:float-left block'>
             <Link href="/">
-                <span className='cursor-pointer font-tangerine text-8xl text-white'>
+                <span className='cursor-pointer font-tangerine sm:text-5xl text-8xl text-white'>
                     Bombshell Spaces
                 </span>
             </Link>
