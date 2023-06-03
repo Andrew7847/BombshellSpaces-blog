@@ -13,10 +13,10 @@ const Header = () => {
 
   return (
     <div className='container mx-auto px-10 mb-8 rounded-md bg-black bg-opacity-70'>
-      <div className='border-b w-full inline-block border-blue-400 py-8'>
+      <div className='border-b w-full inline-block border-blue-400 py-6'>
         <div className='md:float-left block'>
             <Link href="/">
-                <span className='cursor-pointer font-tangerine text-8xl text-white'>
+                <span className='cursor-pointer font-tangerine xs:flex xs:items-center xs:justify-center text-5xl md:text-7xl lg:text-8xl text-white'>
                     Bombshell Spaces
                 </span>
             </Link>
