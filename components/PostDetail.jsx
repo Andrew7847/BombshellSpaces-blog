@@ -17,6 +17,10 @@ const PostDetail = ({ post }) => {
       if (obj.underline) {
         modifiedText = (<u key={index}>{text}</u>);
       }
+      
+      if (obj.type == 'link') {
+        modifiedText = (<a href={obj.href} target="_blank" rel="noopener noreferrer"><u>{obj['children'][0]['text']}</u></a>);
+      }
     }
 
     switch (type) {
